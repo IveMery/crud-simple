@@ -71,6 +71,7 @@ const App = () => {
   return (
     <div className='container mt-5'>
       <div className='row'>
+        <h1>Lista de tareas</h1>
         <ul className="list-group">
           {
             lista.length === 0 ? (<li className="list-group-item mb-4" >No hay tareas</li>) : (lista.map((tarea, index) => (
